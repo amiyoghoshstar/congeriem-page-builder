@@ -16,7 +16,7 @@ app.use(cors());
 
 
 //setup template engine
-app.use(express.static('public'));
+app.use(express.static(__dirname + "/public/"));
 app.use('views', express.static(path.join(__dirname, 'views')));
 app.set('view engine', 'hbs');
 
