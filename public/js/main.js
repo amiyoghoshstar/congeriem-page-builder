@@ -405,3 +405,5 @@ editor.BlockManager.add('two-column-two-image', {
   label: 'Two Column Two Image',
   content: twoColumnTwoImage,
 });
+
+console.log('loaded');
